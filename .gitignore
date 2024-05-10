@@ -181,3 +181,5 @@ cython_debug/
 *.bib
 *.gz
 images
+
+*.ipynb
