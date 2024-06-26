@@ -1,0 +1,27 @@
+UNET_ARGS:
+  dim: 96
+  num_classes: 200
+  cond_drop_prob: 0.2
+  channels: 3
+DIFFUSER_ARGS:
+  image_size: 64
+  timesteps: 1000
+  beta_schedule: 'cosine'
+TRAINER_ARGS:
+  dataset_name: 'Tiny_ImageNet'
+  dataset_path: 'PyTorch-StudioGAN/data/tiny-imagenet-200/train'
+  num_classes: 200
+  train_batch_size: 100
+  train_num_steps: 300000
+  train_lr: 0.00008
+  augment_horizontal_flip: true
+  gradient_accumulate_every: 2
+  ema_update_every: 10
+  ema_decay: 0.995
+  save_and_sample_every: 3000
+  num_samples: 100
+  results_folder: './results_Tiny_ImageNet'
+  amp: false
+  fp16: false
+  calculate_fid: false
+  num_workers: 6

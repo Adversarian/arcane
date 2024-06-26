@@ -182,4 +182,4 @@ cython_debug/
 *.gz
 images
 
-*.ipynb
+generate_figs.ipynb
