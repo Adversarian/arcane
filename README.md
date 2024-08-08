@@ -4,7 +4,7 @@
   <img width="35%" src="https://github.com/Adversarian/arcane/blob/main/ARCANE.jpg" />
 </p>
 
-This repository contains my work for my Master's Thesis titled:
+This repository contains my work for my Master's Thesis titled
 **ARCANE**: <ins>**A**</ins>dversarial <ins>**R**</ins>obustness using <ins>**C**</ins>lass-condition<ins>**A**</ins>l ge<ins>**N**</ins>erative mod<ins>**E**</ins>ls
 
 
